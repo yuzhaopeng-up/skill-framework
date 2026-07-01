@@ -1,0 +1,190 @@
+{
+  "roadshow_material": [
+    "family-trust",
+    "research-report"
+  ],
+  "XUA-auto": [
+    "github"
+  ],
+  "regulatory-policy-rag": [
+    "application-material-checker",
+    "risk-compliance",
+    "product-manual-rag",
+    "github"
+  ],
+  "nodejs-backend-patterns": [
+    "github"
+  ],
+  "market_view": [
+    "research-report"
+  ],
+  "financial_intelligence": [
+    "financial-intelligence"
+  ],
+  "vite-react-tailwind": [
+    "agent-browser"
+  ],
+  "wealth-management": [
+    "risk-compliance",
+    "financial-intelligence",
+    "github"
+  ],
+  "compliance_auto": [
+    "risk-compliance"
+  ],
+  "collection_optimize": [
+    "risk-compliance"
+  ],
+  "fund_research": [
+    "research-report"
+  ],
+  "quant_fund": [
+    "fund_manager_profile",
+    "fund_compare",
+    "dca_calculator"
+  ],
+  "quant_backtest": [
+    "alm"
+  ],
+  "global-asset-allocation": [
+    "global_asset_allocation"
+  ],
+  "application-material-checker": [
+    "risk-compliance",
+    "product-manual-rag",
+    "financial-intelligence",
+    "github"
+  ],
+  "humanizer-academic-zh": [
+    "humanizer"
+  ],
+  "find-skills": [
+    "weather",
+    "skill-creator",
+    "tavily-search",
+    "github"
+  ],
+  "clean-pytest": [
+    "github"
+  ],
+  "product_pricing": [
+    "alm"
+  ],
+  "robo_advisor": [
+    "rebalance"
+  ],
+  "agent-browser": [
+    "github"
+  ],
+  "risk-compliance": [
+    "wealth-management",
+    "financial-intelligence",
+    "github"
+  ],
+  "meeting_minutes": [
+    "research-report"
+  ],
+  "no-code-frontend-builder": [
+    "frontend-design"
+  ],
+  "review-evo": [
+    "github"
+  ],
+  "multi-search-engine": [
+    "weather",
+    "github"
+  ],
+  "ops_daily_report": [
+    "research-report",
+    "ops-daily-report"
+  ],
+  "research_rag": [
+    "research-report",
+    "financial-intelligence"
+  ],
+  "tax_planning": [
+    "wealth-management",
+    "financial-intelligence"
+  ],
+  "supply_chain_finance": [
+    "supply_chain"
+  ],
+  "Story-Writer-Bilingual-Enhanced-Edition": [
+    "github"
+  ],
+  "humanizer": [
+    "github"
+  ],
+  "product-manual-rag": [
+    "wealth-management",
+    "risk-compliance",
+    "customer-marketing",
+    "github"
+  ],
+  "family-trust": [
+    "family_trust"
+  ],
+  "customer-marketing": [
+    "wealth-management",
+    "risk-compliance",
+    "wecom-template-card",
+    "github"
+  ],
+  "research-report": [
+    "wealth-management",
+    "risk-compliance",
+    "financial-intelligence"
+  ],
+  "mlops-automation-cn": [
+    "github"
+  ],
+  "api-test-automation": [
+    "github"
+  ],
+  "rebalance": [
+    "portfolio_management",
+    "fof_portfolio"
+  ],
+  "financial-intelligence": [
+    "github"
+  ],
+  "global_asset_allocation": [
+    "global-asset-allocation",
+    "family-trust"
+  ],
+  "customer-persona": [
+    "wealth-management",
+    "application-material-checker",
+    "product-manual-rag",
+    "customer-marketing",
+    "financial-intelligence",
+    "github"
+  ],
+  "enterprise-due-diligence": [
+    "github"
+  ],
+  "self-improvement": [
+    "github"
+  ],
+  "contract_review": [
+    "ai-contract-review-cn"
+  ],
+  "prd-developer": [
+    "getdesign-md"
+  ],
+  "churn_recall": [
+    "customer-marketing",
+    "customer-persona"
+  ],
+  "ops-daily-report": [
+    "ops_daily_report"
+  ],
+  "family_trust": [
+    "global-asset-allocation",
+    "family-trust"
+  ],
+  "objection_training": [
+    "customer-marketing",
+    "customer-persona"
+  ]
+}
