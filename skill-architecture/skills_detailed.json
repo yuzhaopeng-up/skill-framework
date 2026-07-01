@@ -1,0 +1,1142 @@
+﻿[
+  {
+    "name": "financial-intelligence",
+    "title": "Financial AI — 财务智能体 v1.0",
+    "description": "name: financial-intelligence",
+    "func_type": "analysis",
+    "complexity": "complex",
+    "content_length": 3259,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "financial_intelligence",
+    "title": "DemoBank金融AI — 财务智能体 v1.0",
+    "description": "name: financial-intelligence",
+    "func_type": "analysis",
+    "complexity": "complex",
+    "content_length": 3517,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "risk-compliance",
+    "title": "风控合规智能体 v1.1",
+    "description": "name: risk-compliance",
+    "func_type": "analysis",
+    "complexity": "complex",
+    "content_length": 3508,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "customer-marketing",
+    "title": "客户经理营销话术实时生成器 v1.0",
+    "description": "name: customer-marketing",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 6622,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "smart_marketing",
+    "title": "智能营销话术引擎 v1.0",
+    "description": "> 客户画像 + 产品信息 + 营销目标 → 个性化话术 + 异议预判",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 595,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "smart_customer_service",
+    "title": "智能客服技能 (Smart Customer Service)",
+    "description": "智能客服技能基于规则+关键词匹配的混合引擎，实现银行场景下的意图识别、FAQ匹配、自动回答和转人工判断。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1316,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "wealth-management",
+    "title": "财富管理智能体 v1.0",
+    "description": "name: wealth-management",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 2295,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "robo_advisor",
+    "title": "Robo Advisor Skill - 智能投顾引擎",
+    "description": "**智能投顾增强技能**：基于现代投资组合理论（MPT）和 Black-Litterman 模型框架，为用户提供个性化资产配置方案、投资组合建议及再平衡计划。支持风险偏好解析、资产规模评估、投资目标识别，合规提示全链路覆盖。",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 2063,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "enterprise-due-diligence",
+    "title": "Enterprise Due Diligence v5.0 - 增强版企业尽调引擎",
+    "description": "**支持任意企业名称输入，返回真实数据驱动的尽调报告。**",
+    "func_type": "generation",
+    "complexity": "multi_agent",
+    "content_length": 5201,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "regulatory-policy-rag",
+    "title": "regulatory-policy-rag",
+    "description": "name: regulatory-policy-rag",
+    "func_type": "knowledge",
+    "complexity": "complex",
+    "content_length": 2909,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "regulatory_reporting",
+    "title": "监管报送技能 (Regulatory Reporting Skill)",
+    "description": "金融监管报送全栈支持引擎，覆盖银保监、人民银行、金融稳定、EAST4.0等主流报送类型，输出报表清单、口径说明、数据来源及常见错误提示。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1456,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "portfolio_management",
+    "title": "Portfolio Management Skill（投资组合管理技能）",
+    "description": "本技能基于经典投资组合理论（Modern Portfolio Theory / MPT），为客户提供三种量化策略生成的资产配置方案。支持输入客户风险偏好、资产规模、投资期限和目标收益，返回马科维茨有效前沿推荐组合、风险平价组合和最大多样化组合，并附带持仓明细、预期收益、年化波动率和夏普比率。",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 2883,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "fund_research",
+    "title": "基金研究报告生成器 v1.0",
+    "description": "name: fund-research",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 689,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "research_rag",
+    "title": "研报RAG检索引擎 v1.0",
+    "description": "name: research_rag",
+    "func_type": "knowledge",
+    "complexity": "complex",
+    "content_length": 2354,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "research-report",
+    "title": "研报生成器 v1.0",
+    "description": "name: research-report",
+    "func_type": "knowledge",
+    "complexity": "composite",
+    "content_length": 3609,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "market_view",
+    "title": "市场观点输出引擎 v1.0",
+    "description": "name: market-view",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 701,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "ops-daily-report",
+    "title": "运营日报生成 Skill",
+    "description": "name: ops-daily-report",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 603,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "ops_daily_report",
+    "title": "运营日报生成器 v1.0",
+    "description": "name: ops-daily-report",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 712,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "data-analysis-skill",
+    "title": "数据分析技能包 DataMaster Pro",
+    "description": "name: data-analysis-skill",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 2774,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "content-creator-cn",
+    "title": "中文内容创作助手 Skill",
+    "description": "name: content-creator-cn",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 2344,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "copywriter",
+    "title": "Copywriter",
+    "description": "name: copywriter",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 2300,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "meeting_minutes",
+    "title": "调研纪要生成器 v2.0",
+    "description": "name: meeting-minutes",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 3493,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "self-improvement",
+    "title": "Self-Improvement Skill",
+    "description": "name: self-improvement",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 19702,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "skill-creator",
+    "title": "Skill Creator",
+    "description": "name: skill-creator",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 18032,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "multi-search-engine",
+    "title": "Multi Search Engine v2.0.1",
+    "description": "name: \"multi-search-engine\"",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 3464,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "edge-tts",
+    "title": "Edge-TTS Skill",
+    "description": "name: edge-tts",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 7359,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "byted-text-to-speech",
+    "title": "Byted-Text-to-Speech Skill",
+    "description": "name: byted-text-to-speech",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 2677,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "agent-browser",
+    "title": "Browser Automation with agent-browser",
+    "description": "name: agent-browser",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 19842,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "cyber-owasp-review",
+    "title": "Cyber OWASP Review",
+    "description": "name: cyber-owasp-review",
+    "func_type": "generation",
+    "complexity": "multi_agent",
+    "content_length": 974,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "quant_backtest",
+    "title": "quant_backtest - 量化回测引擎",
+    "description": "基于随机模拟K线数据的量化策略回测引擎，支持六种策略类型，返回完整回测报告。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1208,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "quant_fund",
+    "title": "quant_fund - 量化基金分析引擎",
+    "description": "`quant_fund` 是金融场景量化基金深度分析技能，提供因子暴露分析、风格漂移检测、Brinson归因等核心功能。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 2362,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "claim_analysis",
+    "title": "理赔分析技能 (Claim Analysis Skill)",
+    "description": "**理赔分析引擎** — 输入理赔案件信息，自动输出：",
+    "func_type": "knowledge",
+    "complexity": "complex",
+    "content_length": 3374,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "fraud_detection",
+    "title": "fraud_detection - 反欺诈检测技能",
+    "description": "本技能提供实时交易反欺诈检测能力，基于30+条规则对交易进行多维度风险评估，返回0-100的风险评分、风险等级、触发规则列表及建议行动。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 3491,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "credit_approval",
+    "title": "credit_approval - 信用审批技能",
+    "description": "信用审批技能通过多维度财务分析对企业及个人进行信用评估，输出信用评分（0-100）、杜邦分析、Altman Z-score财务预警、贷款额度建议、利率建议及最终审批结论。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 3652,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "collateral_valuation",
+    "title": "抵押物智能估值引擎 v1.0",
+    "description": "name: collateral-valuation",
+    "func_type": "analysis",
+    "complexity": "complex",
+    "content_length": 1103,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "ma_scheme",
+    "title": "并购方案生成引擎 v1.0",
+    "description": "name: ma-scheme",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1058,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "ipo_analysis",
+    "title": "IPO Analysis Skill",
+    "description": "IPO分析技能：输入公司名称/行业/上市板块/预计募资额，返回完整估值分析报告。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 733,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "family-trust",
+    "title": "家族信托方案 Skill",
+    "description": "name: family-trust",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 614,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "family_trust",
+    "title": "家族信托方案引擎 v1.0",
+    "description": "name: family-trust",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 742,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "tax_planning",
+    "title": "税务筹划方案引擎 v1.0",
+    "description": "name: tax-planning",
+    "func_type": "analysis",
+    "complexity": "complex",
+    "content_length": 841,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "block_trade",
+    "title": "大宗交易技能 (Block Trade Analyzer)",
+    "description": "大宗交易分析引擎，输入股票名称/交易数量/交易价格/买方类型，自动输出折溢价率分析、市场冲击评估、流动性评价、合规提示及历史类似案例参考。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 2866,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "fixed_income_plus",
+    "title": "Fixed Income Plus (固收+) Skill",
+    "description": "固收+策略技能，专注于债券组合的收益分解、久期管理、信用风险管理、类属配置优化，以及与纯债组合的对比分析。",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 1136,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "esg_research",
+    "title": "ESG Research Skill - ESG研究技能",
+    "description": "ESG研究技能提供中国上市公司的ESG（环境、社会、治理）评分分析报告，支持**E/S/G三维评分 + 综合评分 + 同业对比 + 风险点 + 改进建议**。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 2826,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "supply_chain_finance",
+    "title": "SKILL.md — 供应链金融技能（Supply Chain Finance）",
+    "description": "**技能名称**：supply_chain_finance",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 2614,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "trade_finance",
+    "title": "Trade Finance Skill（贸易融资技能）",
+    "description": "本技能为进出口企业提供全面的贸易融资方案推荐与对比分析，基于企业类型、贸易类型、融资金额、账期等关键参数，智能推荐最适合的融资产品。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1256,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "cross_border_biz",
+    "title": "跨境业务技能 (cross_border_biz)",
+    "description": "跨境业务综合解决方案引擎，支持进出口结算、外汇避险、跨境人民币、ODI备案及特殊贸易区政策咨询。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1646,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "churn_recall",
+    "title": "流失客户召回引擎 v1.0",
+    "description": "name: churn-recall",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 911,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "customer_health",
+    "title": "客户健康度热力图引擎 v1.0",
+    "description": "name: customer-health",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1499,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "product_pricing",
+    "title": "产品定价引擎 v1.0",
+    "description": "name: product-pricing",
+    "func_type": "analysis",
+    "complexity": "complex",
+    "content_length": 1032,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "policy_management",
+    "title": "保单管理技能 (Policy Management Skill)",
+    "description": "保单管理技能提供完整的保单检视与保全服务，涵盖保障缺口分析、现金价值计算、保全建议及家庭保障全景图。",
+    "func_type": "knowledge",
+    "complexity": "composite",
+    "content_length": 1521,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "actuarial_model",
+    "title": "精算模型技能 (Actuarial Model Skill)",
+    "description": "本技能提供保险精算核心功能：**保费定价**、**准备金评估**、**偿付能力评估**，适用于终身寿险、定期寿险、重疾险等主要险种。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1748,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "alm",
+    "title": "ALM - 资产负债管理引擎",
+    "description": "ALM（Asset-Liability Management，资产负债管理）引擎专注于银行资产负债表的全方位分析与优化。输入银行资产负债数据（资产规模、负债结构、期限分布），输出完整的缺口分析、风险指标（LCR/NSFR/久期缺口）及优化建议。",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 3647,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "options_strategy",
+    "title": "期权策略分析技能 (options_strategy)",
+    "description": "本技能提供完整的期权策略分析能力，基于 Black-Scholes 框架计算希腊值，并输出多情景损益分析。",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 1626,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "margin_trading",
+    "title": "Margin Trading Monitor（融资融券监控引擎）",
+    "description": "融资融券监控技能，提供维保比率计算、平仓预警、追保建议、集中度风险分析及最佳减仓方案。",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 1367,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "rebalance",
+    "title": "资产配置再平衡引擎 v1.0",
+    "description": "name: rebalance",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 1866,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "fof_portfolio",
+    "title": "FOF Portfolio Skill - 基金组合技能",
+    "description": "FOF Portfolio Skill（基金中基金组合管理引擎）用于根据客户的风险偏好、组合规模、投资目标和持有期限，从内池 20+ 基金中筛选构建最优基金组合，提供战略资产配置（SAA）、战术资产配置（TAA）和权重优化方案。",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 1639,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "fund_compare",
+    "title": "基金对比技能 (fund_compare)",
+    "description": "基金对比技能用于对 2-4 只基金进行多维度对比分析，帮助投资者快速了解基金之间的差异，辅助投资决策。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1509,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "fund_manager_profile",
+    "title": "SKILL.md - 基金经理画像技能",
+    "description": "**技能名称**：fund_manager_profile（基金经理画像）",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 4354,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "dca_calculator",
+    "title": "定投计算器 (DCA Calculator)",
+    "description": "定投计算器是一个金融分析工具，通过模拟定期定额投资策略，帮助用户评估定投指数基金的收益表现。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1302,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "valuation_helper",
+    "title": "估值核算辅助引擎 v1.0",
+    "description": "name: valuation-helper",
+    "func_type": "calculation",
+    "complexity": "complex",
+    "content_length": 1077,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "collection_optimize",
+    "title": "智能催收策略优化引擎 v1.0",
+    "description": "name: collection-optimize",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 985,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "liquidity_alert",
+    "title": "资金流动性风险预警引擎 v1.0",
+    "description": "name: liquidity-alert",
+    "func_type": "analysis",
+    "complexity": "complex",
+    "content_length": 1070,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "audit_sampling",
+    "title": "风险导向智能审计抽样引擎 v1.0",
+    "description": "name: audit-sampling",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 892,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "compliance_auto",
+    "title": "业务流程合规性自动检查引擎 v1.0",
+    "description": "name: compliance-auto",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1174,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "contract_review",
+    "title": "合同智能审查引擎 v1.0",
+    "description": "name: contract-review",
+    "func_type": "audit",
+    "complexity": "complex",
+    "content_length": 724,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "application-material-checker",
+    "title": "进件材料自动核对 v1.0",
+    "description": "name: application-material-checker",
+    "func_type": "knowledge",
+    "complexity": "complex",
+    "content_length": 5589,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "roadshow_material",
+    "title": "路演材料生成器 v1.0",
+    "description": "name: roadshow-material",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 740,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "corp_account_opening",
+    "title": "企业对公开户技能（corp_account_opening）",
+    "description": "为企业客户提供对公开户全流程智能指引，输入企业基本信息，返回开户所需材料清单、办理流程、注意事项及常见问题。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1364,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "branch_analysis",
+    "title": "网点分析技能 (Branch Analysis Skill)",
+    "description": "网点分析技能是一个基于AI的银行网点竞争力评估与经营规划引擎。该技能综合分析网点的地理位置、竞争格局、客群特征等维度，输出SWOT分析、三年经营预测、重点发展业务方向及投入产出建议。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 2292,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "kpi_performance",
+    "title": "KPI 绩效考核引擎",
+    "description": "KPI 绩效考核引擎（KPIPerformanceEngine）针对银行一线岗位，自动生成绩效考核方案（KPI 指标设计 / 权重分配 / 评分标准）、考核数据要求 及 改进建议。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1131,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "objection_training",
+    "title": "客户异议训练引擎 v1.0",
+    "description": "name: objection-training",
+    "func_type": "conversation",
+    "complexity": "complex",
+    "content_length": 938,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "smart_underwriting",
+    "title": "Smart Underwriting 智能核保引擎",
+    "description": "智能核保引擎，基于投保人信息自动评估风险等级，输出核保决定（标准体/次标体/拒保）、自动分级（优选/标准/加费/拒保）、保费调整系数及核保建议。",
+    "func_type": "knowledge",
+    "complexity": "complex",
+    "content_length": 2272,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "story-cog",
+    "title": "Story Cog - Storytelling Powered by CellCog",
+    "description": "name: story-cog",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 8194,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "Story-Writer-Bilingual-Enhanced-Edition",
+    "title": "Story Writer / 楼台助手",
+    "description": "name: \"Story Writer — Bilingual Enhanced Edition\"",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 1102,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "humanizer",
+    "title": "Humanizer: Remove AI Writing Patterns",
+    "description": "name: humanizer",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 30006,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "humanizer-academic-zh",
+    "title": "Humanizer 中文学术版",
+    "description": "name: humanizer-academic-zh",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 4118,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "video-editor",
+    "title": "Video Editor - 视频编辑器",
+    "description": "name: video-editor",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 7490,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "video-to-prompt",
+    "title": "Video to Prompt",
+    "description": "name: video-to-prompt",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 2648,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "byted-seedance-video-generate",
+    "title": "Video Generate Skill",
+    "description": "name: byted-seedance-video-generate",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 8749,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "byted-seedream-image-generate",
+    "title": "byted-seedream-image-generate",
+    "description": "name: byted-seedream-image-generate",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 10875,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "getdesign-md",
+    "title": "getdesign-md Skill",
+    "description": "name: getdesign-md",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 1843,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "frontend-design",
+    "title": "frontend-design",
+    "description": "name: frontend-design",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 4532,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "no-code-frontend-builder",
+    "title": "Purpose",
+    "description": "name: no-code-frontend-builder",
+    "func_type": "generation",
+    "complexity": "multi_agent",
+    "content_length": 8244,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "vite-react-tailwind",
+    "title": "Vite + React + TailwindCSS v4 开发技能",
+    "description": "name: vite-react-tailwind",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 10019,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "senior-backend",
+    "title": "Senior Backend Engineer",
+    "description": "name: senior-backend",
+    "func_type": "generation",
+    "complexity": "multi_agent",
+    "content_length": 11959,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "nodejs-backend-patterns",
+    "title": "Node.js Backend Patterns",
+    "description": "name: nodejs-backend-patterns",
+    "func_type": "knowledge",
+    "complexity": "composite",
+    "content_length": 25069,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "senior-devops",
+    "title": "Senior Devops",
+    "description": "name: senior-devops",
+    "func_type": "generation",
+    "complexity": "multi_agent",
+    "content_length": 4563,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "openclaw-docker",
+    "title": "@elvatis_com/openclaw-docker",
+    "description": "name: openclaw-docker",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 3043,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "api-test-automation",
+    "title": "api-test-automation",
+    "description": "name: api-test-automation",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 3637,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "newman",
+    "title": "Newman - Postman CLI Runner",
+    "description": "name: newman",
+    "func_type": "generation",
+    "complexity": "multi_agent",
+    "content_length": 7591,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "py-test-creator",
+    "title": "py-test-creator — Skill Documentation",
+    "description": "name: py-test-creator",
+    "func_type": "knowledge",
+    "complexity": "composite",
+    "content_length": 4027,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "mlops-automation-cn",
+    "title": "MLOps Automation 🤖",
+    "description": "name: mlops-automation-cn",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 1737,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "model-healthcheck",
+    "title": "Model Healthcheck Skill",
+    "description": "name: model-healthcheck",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 1672,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "clean-pytest",
+    "title": "Clean Pytest",
+    "description": "name: clean-pytest",
+    "func_type": "knowledge",
+    "complexity": "complex",
+    "content_length": 16960,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "modified-code-review",
+    "title": "修改代码评审（Modified Code Review）",
+    "description": "name: modified-code-review",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 1907,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "ontology",
+    "title": "Ontology",
+    "description": "name: ontology",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 6791,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "tavily-search",
+    "title": "Tavily Search Skill",
+    "description": "name: tavily-search",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 3063,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "prd-developer",
+    "title": "PRD Developer Skill",
+    "description": "name: prd-developer",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 1492,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "product-manager-toolkit",
+    "title": "Product Manager Toolkit",
+    "description": "name: \"product-manager-toolkit\"",
+    "func_type": "generation",
+    "complexity": "multi_agent",
+    "content_length": 10143,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "agile-product-owner",
+    "title": "agile-product-owner",
+    "description": "name: \"agile-product-owner\"",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 11548,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "arkclaw-team-project-builder",
+    "title": "arkclaw-team-project-builder Skill",
+    "description": "name: arkclaw-team-project-builder",
+    "func_type": "generation",
+    "complexity": "composite",
+    "content_length": 6128,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "XUA-auto",
+    "title": "XUA-auto",
+    "description": "name: \"XUA-auto\"",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 3647,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "Grammar",
+    "title": "Grammar",
+    "description": "name: Grammar",
+    "func_type": "knowledge",
+    "complexity": "simple",
+    "content_length": 1987,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "wecom-template-card",
+    "title": "WeCom Template Card",
+    "description": "name: wecom-template-card",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 3052,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "Feishu-Cloud-Drive",
+    "title": "Feishu-Cloud-Drive",
+    "description": "name: Feishu Cloud Drive",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 12326,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "openclaw-feishu-docs-perm-auto",
+    "title": "飞书文档权限自动添加",
+    "description": "name: openclaw-feishu-docs-perm-auto",
+    "func_type": "knowledge",
+    "complexity": "complex",
+    "content_length": 12755,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "douyin-creator-cn",
+    "title": "Douyin Creator Assistant 🎬",
+    "description": "name: douyin-creator-cn",
+    "func_type": "generation",
+    "complexity": "simple",
+    "content_length": 948,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "content-strategy",
+    "title": "Content Strategy",
+    "description": "name: content-strategy",
+    "func_type": "knowledge",
+    "complexity": "multi_agent",
+    "content_length": 9437,
+    "has_scripts": false,
+    "has_wecom": false
+  },
+  {
+    "name": "global-asset-allocation",
+    "title": "全球资产配置 Skill",
+    "description": "name: global-asset-allocation",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 636,
+    "has_scripts": true,
+    "has_wecom": false
+  },
+  {
+    "name": "global_asset_allocation",
+    "title": "全球资产配置引擎 v1.0",
+    "description": "name: global-asset-allocation",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 757,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "supply_chain",
+    "title": "供应链金融方案引擎 v1.0",
+    "description": "> 核心企业 + 供应商信息 → 融资方案 + 风险控制",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 739,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "cash_management",
+    "title": "现金管理技能 (Cash Management)",
+    "description": "针对企业客户的现金管理方案生成引擎，输入企业类型、月度现金流规模、波动特征，输出优化建议。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 598,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "trade_optimize",
+    "title": "trade_optimize - 交易指令优化引擎",
+    "description": "> 交易标的 + 手数 + 价格 → 优化下单策略",
+    "func_type": "calculation",
+    "complexity": "complex",
+    "content_length": 1521,
+    "has_scripts": true,
+    "has_wecom": true
+  },
+  {
+    "name": "dca_calculator",
+    "title": "定投计算器 (DCA Calculator)",
+    "description": "定投计算器是一个金融分析工具，通过模拟定期定额投资策略，帮助用户评估定投指数基金的收益表现。",
+    "func_type": "generation",
+    "complexity": "complex",
+    "content_length": 1302,
+    "has_scripts": true,
+    "has_wecom": true
+  }
+]
