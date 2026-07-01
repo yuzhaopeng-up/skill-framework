@@ -1,0 +1,48 @@
+# L1 基础Skill模板
+
+# 用途: 单点工具型Skill（信息提取、日报生成、资料审核等）
+# 复杂度: 低~中
+# 预计开发时间: 2-4小时
+
+skill:
+  name: ""
+  version: "1.0.0"
+  description: ""
+  
+  input:
+    parameters:
+      - name: ""
+        type: string
+        required: true
+        description: ""
+    
+  processing:
+    steps:
+      - step: 1
+        name: "输入识别"
+        action: ""
+      - step: 2
+        name: "内容解析"
+        action: ""
+      - step: 3
+        name: "结果生成"
+        action: ""
+  
+  output:
+    format: json
+    structure:
+      status: "success|partial|error"
+      data: {}
+      missing_fields: []
+      source: ""
+      confidence: 0.0
+  
+  error_handling:
+    - condition: "输入为空"
+      action: "返回友好提示"
+    - condition: "数据缺失"
+      action: "降级输出"
+  
+  security:
+    permissions: []
+    audit_log: true
