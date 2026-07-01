@@ -1,0 +1,2906 @@
+﻿{
+  "summary": {
+    "generated_at": "2026-06-20",
+    "total_before_dedup": 353,
+    "total_after_dedup": 210,
+    "duplicates_removed": 145,
+    "multi_source_skills": 124,
+    "last_modified_note": "added cross_channel_router + unified_document_pipeline (L2 reference impls)"
+  },
+  "skills": [
+    {
+      "name": "actuarial_model",
+      "original_names": [
+        "actuarial_model"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "agent_browser",
+      "original_names": [
+        "agent-browser"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including n"
+    },
+    {
+      "name": "agile_product_owner",
+      "original_names": [
+        "agile-product-owner"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Agile product ownership for backlog management and sprint execution. Covers user story writing, acce"
+    },
+    {
+      "name": "ai_contract_review_cn",
+      "original_names": [
+        "ai-contract-review-cn"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "AI合同审查助手 - 智能风险提示、条款解读、合同生成、法律咨询"
+    },
+    {
+      "name": "alm",
+      "original_names": [
+        "alm"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "aml_rating",
+      "original_names": [
+        "aml_rating"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "api_test_automation",
+      "original_names": [
+        "api-test-automation"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "API接口测试自动化工具，支持REST/GraphQL，包含接口测试、性能测试、契约测试、Mock服务等功能 | API Test Automation for REST/GraphQL with p"
+    },
+    {
+      "name": "application_material_checker",
+      "original_names": [
+        "application-material-checker"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "transferable",
+      "capability_domain": "C01_信息提取与结构化",
+      "description": "Financial AI Skill - 进件材料自动核对引擎。基于规则引擎对身份证/营业执照/银行流水/合同等单据进行完整性+合规性双维校验，自动识别缺失项、过期证件、名称不一致、用途违规、首付不足"
+    },
+    {
+      "name": "arkclaw_automation_os",
+      "original_names": [
+        "arkclaw-automation-os"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L3",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "arkclaw_team_project_builder",
+      "original_names": [
+        "arkclaw-team-project-builder"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "transferable",
+      "capability_domain": "C06_流程编排路由",
+      "description": "项目经理负责项目规划、团队组建与项目调整。涵盖：意图识别 → 澄清沟通 → 规划方案 → 创建团队，以及项目运行中的成员增删改、项目信息修改。通过 openclaw gateway call 调用 R"
+    },
+    {
+      "name": "audit_sampling",
+      "original_names": [
+        "audit_sampling",
+        "audit-sampling"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C10_沉淀归档治理",
+      "description": "金融AI技能 - 风险导向智能审计抽样引擎。基于监管规则和风险模型，自动生成审计抽样方案，实现抽样覆盖率≥95%的验收标准。适用于银行、证券、保险等金融机构的内部审计场景。"
+    },
+    {
+      "name": "block_trade",
+      "original_names": [
+        "block_trade"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "branch_analysis",
+      "original_names": [
+        "branch_analysis"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "browser",
+      "original_names": [
+        "browser"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Browser automation. When you need to visit a webpage, open a website, take a screenshot, or perform "
+    },
+    {
+      "name": "browser_use",
+      "original_names": [
+        "browser-use"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "budget_control",
+      "original_names": [
+        "budget_control"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "byted_seedance_video_generate",
+      "original_names": [
+        "byted-seedance-video-generate"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Generate videos using Seedance models. Invoke when user wants to create videos from text prompts, im"
+    },
+    {
+      "name": "byted_seedream_image_generate",
+      "original_names": [
+        "byted-seedream-image-generate"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Generate high-quality images from text prompts using Volcano Engine Seedream models. Supports multip"
+    },
+    {
+      "name": "byted_teamproject_image_generate",
+      "original_names": [
+        "byted-teamproject-image-generate"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Generate high-quality images from text prompts using Volcano Engine Seedream models. Supports multip"
+    },
+    {
+      "name": "byted_teamproject_video_generate",
+      "original_names": [
+        "byted-teamproject-video-generate"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Generate videos using Seedance models. Invoke when user wants to create videos from text prompts, im"
+    },
+    {
+      "name": "byted_text_to_speech",
+      "original_names": [
+        "byted-text-to-speech"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "将文本合成为语音（TTS）。使用火山引擎豆包语音合成 API，支持流式合成、多种音色、语速/音调/音量调节、Markdown 过滤和 LaTeX 公式播报。当用户需要把文字转成语音、生成朗读音频、配音"
+    },
+    {
+      "name": "byted_web_search",
+      "original_names": [
+        "byted-web-search"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C06_流程编排路由",
+      "description": "火山引擎联网搜索 API，返回网页/图片结果。联网搜索场景优先使用本 skill。触发词包括：查/搜/找、真的吗/靠谱吗/确认/核实、最近/今天/最新/近期、出处/来源/链接、有什么/有哪些/推荐、价"
+    },
+    {
+      "name": "cash_management",
+      "original_names": [
+        "cash_management"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "cashflow_forecast",
+      "original_names": [
+        "cashflow_forecast"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "transferable",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "churn_early_warning",
+      "original_names": [
+        "churn-early-warning"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L4",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "churn_recall",
+      "original_names": [
+        "churn_recall",
+        "churn-recall"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "金融AI技能 - 流失客户召回引擎。识别潜在流失客户，基于RFM模型和客户行为数据生成个性化召回话术和营销策略。降低客户流失率，提升客户活跃度。"
+    },
+    {
+      "name": "claim_analysis",
+      "original_names": [
+        "claim_analysis"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "claim_review_v2",
+      "original_names": [
+        "claim_review_v2"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "clawlink_workflow",
+      "original_names": [
+        "clawlink-workflow"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "clean_pytest",
+      "original_names": [
+        "clean-pytest"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Write clean, maintainable pytest tests using Fake-based testing, contract testing, and dependency in"
+    },
+    {
+      "name": "cloudstudio_deploy",
+      "original_names": [
+        "cloudstudio-deploy"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "code_review_skill",
+      "original_names": [
+        "code_review_skill"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "code_reviewer",
+      "original_names": [
+        "code_reviewer"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "general",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "collateral_valuation",
+      "original_names": [
+        "collateral_valuation",
+        "collateral-valuation"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "金融AI技能 - 抵押物智能估值引擎。输入抵押物类型、地址/规格、面积，输出估值报告+风险建议。支持房产、设备、车辆、土地、应收账款、股权等抵押物类型，覆盖金融行业常见抵押物估值场景。验收标准：房产估"
+    },
+    {
+      "name": "collection_optimize",
+      "original_names": [
+        "collection_optimize",
+        "collection-optimize"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "金融AI技能 - 智能催收策略优化引擎。输入逾期客户信息及历史催收记录，输出分层催收策略与定制化话术。目标：回收率提升≥10%。"
+    },
+    {
+      "name": "compliance_auto",
+      "original_names": [
+        "compliance-auto",
+        "compliance_auto"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": "金融AI技能 - 业务流程合规性自动检查引擎。输入业务类型和操作记录，自动检查合规性，输出合规报告和整改建议。支持10+种合规规则，覆盖金融行业主要业务流程合规检查场景。"
+    },
+    {
+      "name": "compliance_training",
+      "original_names": [
+        "compliance_training"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "computer_use",
+      "original_names": [
+        "computer-use"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "CUA (Computer Use Agent) for visual GUI-based computer control + Office document automation. When yo"
+    },
+    {
+      "name": "content_creator_cn",
+      "original_names": [
+        "content-creator-cn"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "中文内容创作助手 - 一键生成掘金/知乎/公众号/小红书风格文章。适合：内容创作者、自媒体运营。"
+    },
+    {
+      "name": "content_strategy",
+      "original_names": [
+        "content-strategy"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Build and execute a content marketing strategy for a solopreneur business. Use when planning what co"
+    },
+    {
+      "name": "contract_review",
+      "original_names": [
+        "contract_review",
+        "contract-review"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "金融AI技能 - 合同智能审查引擎。自动审查合同条款，识别风险点，提供修改建议。支持多种合同类型，覆盖金融行业常见合同风险。"
+    },
+    {
+      "name": "copywriter",
+      "original_names": [
+        "copywriter"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Write compelling UX copy, marketing content, and product messaging. Use when writing button labels, "
+    },
+    {
+      "name": "corp_account_opening",
+      "original_names": [
+        "corp_account_opening"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "credit_approval",
+      "original_names": [
+        "credit_approval"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "credit_collection",
+      "original_names": [
+        "credit_collection"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "cron_scheduling",
+      "original_names": [
+        "cron-scheduling"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "cross_border_biz",
+      "original_names": [
+        "cross_border_biz"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "cross_channel_router",
+      "original_names": [
+        "cross_channel_router"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C07_消息通知与协同",
+      "description": "L2 跨渠道路由器 reference 实现：统一 OutboundMessage + 路由引擎 + Console/Feishu/WeCom 适配器 + 降级矩阵 + 幂等性 + 审计日志。20 单元测试全部通过。"
+    },
+    {
+      "name": "customer_health",
+      "original_names": [
+        "customer_health",
+        "customer-health"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "金融AI技能 - 客户健康度热力图引擎。可视化展示客户健康度，基于多维度评分规则自动计算健康度得分，输出热力图与预警名单。支持客户群整体健康监测、异常预警、客群分层。"
+    },
+    {
+      "name": "customer_marketing",
+      "original_names": [
+        "customer-marketing"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "Financial AI Skill - 客户经理营销话术实时生成器。输入客户画像和营销目标，AI自动生成电话/微信/拜访话术，支持异议处理预演、方言适配、多风格切换。覆盖零售/对公/理财/私行/信用"
+    },
+    {
+      "name": "customer_persona",
+      "original_names": [
+        "customer-persona"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "Financial AI Skill - 360 度客户画像生成器。输入客户基本信息（自然语言或结构化），输出 RFM 标签、生命周期阶段、推荐产品清单（25 个银行产品）、触达渠道建议、营销话术钩子"
+    },
+    {
+      "name": "cyber_owasp_review",
+      "original_names": [
+        "cyber-owasp-review"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C05_风险合规安全",
+      "description": "Map application security findings to OWASP Top 10 categories and generate remediation checklists. Us"
+    },
+    {
+      "name": "data_analysis_skill",
+      "original_names": [
+        "data-analysis-skill"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "数据分析技能包 - 自动抓取、清洗、可视化、生成报告。适合数据分析师、运营人员，告别 Excel 手工操作。"
+    },
+    {
+      "name": "dca_calculator",
+      "original_names": [
+        "dca_calculator"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "deep_research_engine",
+      "original_names": [
+        "deep-research-engine"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "didi_ride_skill",
+      "original_names": [
+        "didi-ride-skill"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "docx",
+      "original_names": [
+        "docx"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "douyin_creator_cn",
+      "original_names": [
+        "douyin-creator-cn"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "transferable",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "Douyin Creator Assistant - Tag recommendations, best posting times, title optimization, and competit"
+    },
+    {
+      "name": "due_diligence_data_fetcher",
+      "original_names": [
+        "due_diligence_data_fetcher"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "general",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "edge_tts",
+      "original_names": [
+        "edge-tts"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "|"
+    },
+    {
+      "name": "email_daily_summary",
+      "original_names": [
+        "email-daily-summary"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "enterprise_due_diligence",
+      "original_names": [
+        "enterprise-due-diligence"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C01_信息提取与结构化",
+      "description": ""
+    },
+    {
+      "name": "esg_research",
+      "original_names": [
+        "esg_research"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": ""
+    },
+    {
+      "name": "excalidraw_diagram",
+      "original_names": [
+        "excalidraw-diagram"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "excel",
+      "original_names": [
+        "excel"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "expense_audit",
+      "original_names": [
+        "expense_audit"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "expert_manager",
+      "original_names": [
+        "expert-manager"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "family_trust",
+      "original_names": [
+        "family-trust",
+        "family_trust"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": "Financial AI Skill - 家族信托方案引擎。输入客户画像/资产规模/传承目标，自动生成家族信托设立方案（架构设计+资产配置+税务筹划+受益人安排+风险隔离）。覆盖银行私行/信托公司高净"
+    },
+    {
+      "name": "feishu_cloud_drive",
+      "original_names": [
+        "Feishu-Cloud-Drive",
+        "Feishu Cloud Drive"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "基于飞书官方 API 的云盘管理技能，支持文件列表查询、上传、下载、文件夹创建、权限管理、文件搜索、统计信息、快捷方式、复制移动等完整功能。参考 feishu-drive 技能开发，修复了原技能中的 "
+    },
+    {
+      "name": "feishu_doc",
+      "original_names": [
+        "feishu-doc"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "feishu_doc_manager",
+      "original_names": [
+        "feishu-doc-manager"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "|"
+    },
+    {
+      "name": "feishu_document_suite",
+      "original_names": [
+        "feishu-document-suite"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "feishu_drive",
+      "original_names": [
+        "feishu-drive"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "feishu_publisher",
+      "original_names": [
+        "feishu_publisher"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "general",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "feishu_wiki",
+      "original_names": [
+        "feishu-wiki"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "飞书知识库 Skill。创建知识空间、创建 Wiki 页面节点。当需要在飞书知识库中组织和沉淀文档时使用此 Skill。"
+    },
+    {
+      "name": "finance_advisor",
+      "original_names": [
+        "finance-advisor"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "financial_extract",
+      "original_names": [
+        "financial_extract"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C01_信息提取与结构化",
+      "description": ""
+    },
+    {
+      "name": "financial_intelligence",
+      "original_names": [
+        "financial_intelligence",
+        "financial-intelligence"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "Financial AI Skill - 6大财务场景AI赋能：发票查验、预算管控、财报速读、税务筹划、费用报销、资金预测。基于规则引擎的轻量级财务智能体，零API费用，毫秒级响应。"
+    },
+    {
+      "name": "find_skills",
+      "original_names": [
+        "find-skills"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": "Search and discover OpenClaw skills from various sources. Use when: user wants to find available ski"
+    },
+    {
+      "name": "fixed_income_plus",
+      "original_names": [
+        "fixed_income_plus"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "fof_portfolio",
+      "original_names": [
+        "fof_portfolio"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "fraud_alert",
+      "original_names": [
+        "fraud_alert"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "fraud_detection",
+      "original_names": [
+        "fraud_detection"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "frontend_design",
+      "original_names": [
+        "frontend-design"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill wh"
+    },
+    {
+      "name": "frontend_dev",
+      "original_names": [
+        "frontend-dev"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "fund_compare",
+      "original_names": [
+        "fund_compare"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "fund_manager_profile",
+      "original_names": [
+        "fund_manager_profile"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "fund_research",
+      "original_names": [
+        "fund_research",
+        "fund-research"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": "Financial AI Skill - 基金研究报告生成器。输入基金代码/名称，自动输出基金分析报告（业绩归因+收益分解+风险分析+基金经理评价+投资建议）。覆盖公募/私募/货币/债券/混合型基金。"
+    },
+    {
+      "name": "getdesign_md",
+      "original_names": [
+        "getdesign-md"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C09_集成连接器",
+      "description": "从 getdesign.md 下载知名品牌/网站的设计系统文档（DESIGN.md），为前端开发提供风格参考。当需要为项目选择或应用某个品牌的设计系统风格时使用此技能。"
+    },
+    {
+      "name": "github",
+      "original_names": [
+        "github"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "DeltaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues,"
+    },
+    {
+      "name": "github_api_upload",
+      "original_names": [
+        "github-api-upload"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "global_asset_allocation",
+      "original_names": [
+        "global_asset_allocation",
+        "global-asset-allocation"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": "Financial AI Skill - 全球资产配置引擎。输入客户风险偏好/资产规模/配置目标，自动生成全球资产配置方案（区域分布+资产类别+货币对冲+再平衡策略）。覆盖银行私行/外资行高净值客户跨"
+    },
+    {
+      "name": "go_concurrency",
+      "original_names": [
+        "go-concurrency"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Production Go concurrency patterns — goroutines, channels, sync primitives, context, worker pools, p"
+    },
+    {
+      "name": "grammar",
+      "original_names": [
+        "Grammar"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Correct grammar and spelling without changing meaning or style."
+    },
+    {
+      "name": "healthcheck",
+      "original_names": [
+        "healthcheck"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "humanizer",
+      "original_names": [
+        "humanizer"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Humanize text: strip AI-isms and add real voice."
+    },
+    {
+      "name": "humanizer_academic_zh",
+      "original_names": [
+        "humanizer-academic-zh"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Humanizer 中文学术版——当用户要求润色论文、去除AI味、降低AIGC检测率，或说\"帮我改改这段\"\"这段读起来像AI写的\"时触发。"
+    },
+    {
+      "name": "insurance_recommend",
+      "original_names": [
+        "insurance_recommend"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "intelligent_research_platform",
+      "original_names": [
+        "intelligent-research-platform"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L4",
+      "industry": "financial",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "invoice_check",
+      "original_names": [
+        "invoice_check"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C01_信息提取与结构化",
+      "description": ""
+    },
+    {
+      "name": "ipo_analysis",
+      "original_names": [
+        "ipo_analysis"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "jrj_fin_search_skill",
+      "original_names": [
+        "jrj-fin-search-skill"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "financial",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "kexue_due_diligence_engine",
+      "original_names": [
+        "kexue-due-diligence-engine"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L3",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "kimiim_cli",
+      "original_names": [
+        "kimiim-cli"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "kpi_performance",
+      "original_names": [
+        "kpi_performance"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "lexiang_knowledge_base",
+      "original_names": [
+        "lexiang-knowledge-base"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "liquidity_alert",
+      "original_names": [
+        "liquidity-alert",
+        "liquidity_alert"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": "金融AI技能 - 资金流动性风险预警引擎。基于规则引擎预测30天流动性缺口，识别预警信号，支持LCR/净流动性缺口监控。适用于银行、证券、基金、保险等金融机构资金管理场景。"
+    },
+    {
+      "name": "lobby_emotion",
+      "original_names": [
+        "lobby_emotion"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L1",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "lobby_marketing",
+      "original_names": [
+        "lobby_marketing"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "lobby_queue",
+      "original_names": [
+        "lobby_queue"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L1",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "lobby_routing",
+      "original_names": [
+        "lobby_routing"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C06_流程编排路由",
+      "description": ""
+    },
+    {
+      "name": "ma_scheme",
+      "original_names": [
+        "ma-scheme",
+        "ma_scheme"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "金融AI技能 - 并购方案生成引擎。输入收购方、被收购方、交易目的，输出交易结构设计、估值分析、财务预测及风险提示。支持多种交易结构，覆盖A股上市公司并购重组场景。"
+    },
+    {
+      "name": "margin_trading",
+      "original_names": [
+        "margin_trading"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "market_view",
+      "original_names": [
+        "market-view",
+        "market_view"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Financial AI Skill - 市场观点输出引擎。输入市场数据/新闻/行情，自动生成日报/周报观点输出（大盘综述+行业表现+热点主题+资金流向+下周展望）。覆盖A股/港股/美股，零外部依赖。"
+    },
+    {
+      "name": "meeting_minutes",
+      "original_names": [
+        "meeting_minutes",
+        "meeting-minutes"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Financial AI Skill - 调研纪要生成器 v2.0。输入调研录音文字/会议记录/音频文件路径，自动输出结构化纪要（参会人+核心议题+关键要点+待办事项+风险提示+情感分析+关键数据提取"
+    },
+    {
+      "name": "minimax_xlsx",
+      "original_names": [
+        "minimax-xlsx"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "mlops_automation_cn",
+      "original_names": [
+        "mlops-automation-cn"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Task automation, containerization, CI/CD, and experiment tracking"
+    },
+    {
+      "name": "model_healthcheck",
+      "original_names": [
+        "model-healthcheck"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "Test all configured models for availability. Activate when user says \"test models\", \"check models\", "
+    },
+    {
+      "name": "modified_code_review",
+      "original_names": [
+        "modified-code-review"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "Reviews user-modified code (diffs/PRs), provides best-practice recommendations, analyzes cost-effect"
+    },
+    {
+      "name": "multi_search_engine",
+      "original_names": [
+        "multi-search-engine"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "DeltaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": "Multi search engine integration with 17 engines (8 CN + 9 Global). Supports advanced search operator"
+    },
+    {
+      "name": "multimodal_content_generation",
+      "original_names": [
+        "multimodal-content-generation"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "nano_pdf",
+      "original_names": [
+        "nano-pdf"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts)."
+    },
+    {
+      "name": "neodata_financial_search",
+      "original_names": [
+        "neodata-financial-search"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "financial",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "newman",
+      "original_names": [
+        "newman"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Automated API testing with Postman collections via Newman CLI. Use when user requests API testing, c"
+    },
+    {
+      "name": "no_code_frontend_builder",
+      "original_names": [
+        "no-code-frontend-builder"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "Meta-skill for generating production-ready React UI for non-programmers by orchestrating frontend-de"
+    },
+    {
+      "name": "nodejs_backend_patterns",
+      "original_names": [
+        "nodejs-backend-patterns"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patter"
+    },
+    {
+      "name": "objection_training",
+      "original_names": [
+        "objection-training",
+        "objection_training"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "金融AI技能 - 客户异议训练引擎。模拟客户各种异议场景，为客户经理提供实战训练。包含5种以上异议类型，自动评分和改进建议。"
+    },
+    {
+      "name": "obsidian",
+      "original_names": [
+        "obsidian"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "ontology",
+      "original_names": [
+        "ontology"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C10_沉淀归档治理",
+      "description": "Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying "
+    },
+    {
+      "name": "openai_image_gen",
+      "original_names": [
+        "openai-image-gen"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "openai_whisper",
+      "original_names": [
+        "openai-whisper"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "openai_whisper_api",
+      "original_names": [
+        "openai-whisper-api"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "openclaw_docker",
+      "original_names": [
+        "openclaw-docker"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Manage Docker containers and Compose projects via OpenClaw tools"
+    },
+    {
+      "name": "openclaw_feishu_docs_perm_auto",
+      "original_names": [
+        "openclaw-feishu-docs-perm-auto"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "自动为飞书文档添加用户权限。每次创建飞书文档（多维表格/文档/电子表格/文件夹/云空间文件/知识库节点等）后自动添加用户权限，或用户反馈文档无权限时补充添加权限。适用于 OpenClaw Agent。"
+    },
+    {
+      "name": "opencli",
+      "original_names": [
+        "opencli"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C06_流程编排路由",
+      "description": ""
+    },
+    {
+      "name": "operational_risk",
+      "original_names": [
+        "operational_risk"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "ops_daily_report",
+      "original_names": [
+        "ops_daily_report",
+        "ops-daily-report"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Financial AI Skill - 运营日报生成器。输入运营数据指标，自动生成格式化运营日报（业务概况+重点指标+同比环比+异常预警+明日计划）。覆盖银行/证券/基金运营场景。"
+    },
+    {
+      "name": "options_strategy",
+      "original_names": [
+        "options_strategy"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "pdf",
+      "original_names": [
+        "pdf"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "pdf_intelligent_processing",
+      "original_names": [
+        "pdf-intelligent-processing"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "pdf_toolkit_pro",
+      "original_names": [
+        "pdf-toolkit-pro"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "pdfkit_py",
+      "original_names": [
+        "pdfkit-py"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "performance_attribution",
+      "original_names": [
+        "performance_attribution"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "playwright_cli",
+      "original_names": [
+        "playwright-cli"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "policy_management",
+      "original_names": [
+        "policy_management"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": ""
+    },
+    {
+      "name": "portfolio_management",
+      "original_names": [
+        "portfolio_management"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "portfolio_optimize",
+      "original_names": [
+        "portfolio_optimize"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "pptx",
+      "original_names": [
+        "pptx"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "prd_developer",
+      "original_names": [
+        "prd-developer"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C09_集成连接器",
+      "description": "产品需求文档（PRD）开发技能。帮助产品经理从需求分析到完整PRD文档的撰写，包含用户故事、功能规格、交互设计要求和验收标准。适用于前端网页项目的需求定义和产品规划。"
+    },
+    {
+      "name": "product_manager_toolkit",
+      "original_names": [
+        "product-manager-toolkit"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysi"
+    },
+    {
+      "name": "product_manual_rag",
+      "original_names": [
+        "product-manual-rag"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": "Financial AI Skill - 产品手册智能对话引擎。基于 BM25 + TF-IDF 双路检索 + RRF 融合的轻量级 RAG，零外部依赖、毫秒级响应、自动出处标注。支持理财/信用卡/贷"
+    },
+    {
+      "name": "product_pricing",
+      "original_names": [
+        "product-pricing",
+        "product_pricing"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": "金融AI技能 - 产品定价引擎。输入产品类型、客户风险等级、市场利率，输出定价方案及利率敏感性分析。支持存款、贷款、汇兑、理财四大产品线。"
+    },
+    {
+      "name": "py_test_creator",
+      "original_names": [
+        "py-test-creator"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Automatically generates pytest-compatible unit test templates from Python function signatures and do"
+    },
+    {
+      "name": "qq_email",
+      "original_names": [
+        "qq-email"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "quant_backtest",
+      "original_names": [
+        "quant_backtest"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "quant_fund",
+      "original_names": [
+        "quant_fund"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": ""
+    },
+    {
+      "name": "rebalance",
+      "original_names": [
+        "rebalance"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": "金融AI技能 - 资产配置再平衡引擎。输入当前持仓+目标配置，输出调仓方案+交易成本估算。支持多资产类型（股票/债券/基金/黄金/外汇/理财等），基于规则引擎，无需LLM。"
+    },
+    {
+      "name": "regulatory_policy_rag",
+      "original_names": [
+        "regulatory-policy-rag"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": "Financial AI Skill - 监管政策智能解读引擎。基于 BM25 + TF-IDF 双路检索 + RRF 融合，对银保监/央行/证监会等监管文件进行智能问答，自动判断适用机构、识别合规要"
+    },
+    {
+      "name": "regulatory_reporting",
+      "original_names": [
+        "regulatory_reporting"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C10_沉淀归档治理",
+      "description": ""
+    },
+    {
+      "name": "renewal_alert",
+      "original_names": [
+        "renewal_alert"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "report_formatter",
+      "original_names": [
+        "report_formatter"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "general",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "research_notes",
+      "original_names": [
+        "research_notes"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "research_rag",
+      "original_names": [
+        "research_rag"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": "Financial AI Skill - 研报RAG检索引擎。BM25+TF-IDF双路检索+RRF融合+多轮对话上下文+引用标注，支持自然语言查询行业/公司研报知识库，零外部依赖。"
+    },
+    {
+      "name": "research_report",
+      "original_names": [
+        "research-report"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Financial AI Skill - 投研报告自动生成器。输入行业/公司/年度自然语言请求，自动输出完整投研报告（摘要+行业趋势+公司基本面+财务估值+风险提示+投资建议）。覆盖 6 大行业（新能"
+    },
+    {
+      "name": "review_evo",
+      "original_names": [
+        "review-evo"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C05_风险合规安全",
+      "description": "Self-improving code reviewer that learns your codebase over time. Analyzes git history, spots patter"
+    },
+    {
+      "name": "risk_analyzer",
+      "original_names": [
+        "risk_analyzer"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "general",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "risk_compliance",
+      "original_names": [
+        "risk-compliance"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": "Financial AI Skill - 风控合规智能体。提供企业风险评估、信用评级、反欺诈检测、合规检查、财务诊断、监管政策查询、贷后监控、产业链风险追踪、市场情绪监测、关联图谱分析等10大能力。基"
+    },
+    {
+      "name": "roadshow_material",
+      "original_names": [
+        "roadshow-material",
+        "roadshow_material"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C04_报告文档生成",
+      "description": "Financial AI Skill - 路演材料生成器。输入产品信息/目标客户/演讲时长，自动生成路演PPT大纲+讲稿（开场白+产品亮点+对比优势+风险揭示+结语）。覆盖银行理财/基金/信托产品路演"
+    },
+    {
+      "name": "robo_advisor",
+      "original_names": [
+        "robo_advisor"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "securities_research",
+      "original_names": [
+        "securities_research"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": ""
+    },
+    {
+      "name": "self_evolution_engine",
+      "original_names": [
+        "self-evolution-engine"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "self_improvement",
+      "original_names": [
+        "self-improvement"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "DeltaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A comman"
+    },
+    {
+      "name": "senior_backend",
+      "original_names": [
+        "senior-backend"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": "This skill should be used when the user asks to \"design REST APIs\", \"optimize database queries\", \"im"
+    },
+    {
+      "name": "senior_devops",
+      "original_names": [
+        "senior-devops"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platfor"
+    },
+    {
+      "name": "sentiment_monitor",
+      "original_names": [
+        "sentiment-monitor"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "skill_creator",
+      "original_names": [
+        "skill-creator"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "DeltaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "transferable",
+      "capability_domain": "C06_流程编排路由",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill"
+    },
+    {
+      "name": "smart_customer_service",
+      "original_names": [
+        "smart_customer_service"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "smart_marketing",
+      "original_names": [
+        "smart_marketing"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "smart_underwriting",
+      "original_names": [
+        "smart_underwriting"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "story_cog",
+      "original_names": [
+        "story-cog"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C09_集成连接器",
+      "description": "AI creative writing and storytelling powered by CellCog. Write novels, short stories, screenplays, f"
+    },
+    {
+      "name": "story_writer_bilingual_enhanced_edition",
+      "original_names": [
+        "Story-Writer-Bilingual-Enhanced-Edition"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "general",
+      "capability_domain": "C09_集成连接器",
+      "description": "---\nname: \"Story Writer — Bilingual Enhanced Edition\"\ndescription: \"小说创作、角色设计、情节设计(三幕式)、对话生成、世界观构建、续"
+    },
+    {
+      "name": "story_writer_—_bilingual_enhanced_edition",
+      "original_names": [
+        "Story Writer — Bilingual Enhanced Edition"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C06_流程编排路由",
+      "description": "小说创作、角色设计、情节设计(三幕式)、对话生成、世界观构建、续写。Story writing with character design, three-act plot structure, dia"
+    },
+    {
+      "name": "stress_test",
+      "original_names": [
+        "stress_test"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "summarize",
+      "original_names": [
+        "summarize"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C06_流程编排路由",
+      "description": "Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube)."
+    },
+    {
+      "name": "supply_chain",
+      "original_names": [
+        "supply_chain"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "supply_chain_finance",
+      "original_names": [
+        "supply_chain_finance"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "suspicious_report",
+      "original_names": [
+        "suspicious_report"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "tapd_openapi",
+      "original_names": [
+        "tapd-openapi"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "tavily_search",
+      "original_names": [
+        "tavily-search"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C02_知识检索与RAG",
+      "description": "Use Tavily API for real-time web search and content extraction. Use when: user needs real-time web s"
+    },
+    {
+      "name": "tax_planning",
+      "original_names": [
+        "tax_planning",
+        "tax-planning"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "transferable",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "金融AI技能 - 税务筹划方案引擎。输入收入类型、资产状况、地区，输出税负分析与节税方案。支持个人所得税、企业所得税、增值税、消费税、房产税等主要税种。"
+    },
+    {
+      "name": "tencent_meeting_mcp",
+      "original_names": [
+        "tencent-meeting-mcp"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "three_agent_collaboration",
+      "original_names": [
+        "three-agent-collaboration"
+      ],
+      "sources": [
+        "EpsilonAgent"
+      ],
+      "level": "L4",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "trade_finance",
+      "original_names": [
+        "trade_finance"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "trade_optimize",
+      "original_names": [
+        "trade_optimize"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "underwriting_v2",
+      "original_names": [
+        "underwriting_v2"
+      ],
+      "sources": [
+        "AlphaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": ""
+    },
+    {
+      "name": "unified_document_pipeline",
+      "original_names": [
+        "unified_document_pipeline"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": "L2 文档流水线 reference 实现：7 阶段 (Ingest→Normalize→Extract→Render→Archive→Distribute→Audit) + 6 内置模板 (incident/daily/risk/minutes/customer/kpi) + 简化版 Jinja2 渲染器。26 单元测试全部通过。"
+    },
+    {
+      "name": "valuation_helper",
+      "original_names": [
+        "valuation-helper",
+        "valuation_helper"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "金融AI技能 - 基金/理财估值核算辅助引擎。输入持仓数据和净值日期，输出估值计算结果与异常预警。验收标准：估值准确率≥99.99%。"
+    },
+    {
+      "name": "video_editor",
+      "original_names": [
+        "video-editor"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C09_集成连接器",
+      "description": "视频编辑器，支持合并多个视频文件、为视频添加音频轨道、合并音频、生成并烧录字幕等。"
+    },
+    {
+      "name": "video_to_prompt",
+      "original_names": [
+        "video-to-prompt"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C01_信息提取与结构化",
+      "description": "Convert a local desktop recording (MP4 / MKV) into a structured CUA prompt. Use this skill when the "
+    },
+    {
+      "name": "vite_react_tailwind",
+      "original_names": [
+        "vite-react-tailwind"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C09_集成连接器",
+      "description": "使用 Vite + React + TailwindCSS v4 + lucide-react 进行前端项目搭建和开发的技能。涵盖项目初始化、组件开发、本地 Mock 数据、开发服务器启动、自测验证等"
+    },
+    {
+      "name": "wealth_management",
+      "original_names": [
+        "wealth-management"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C08_投资组合定价",
+      "description": "Financial AI Skill - 财富管理智能体。提供资产配置、财务健康诊断、退休规划、保险规划、税务优化、教育金规划、房产规划、智能投顾等8大能力。基于规则引擎的轻量级财富管理系统，零API"
+    },
+    {
+      "name": "weather",
+      "original_names": [
+        "weather"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "DeltaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L0",
+      "industry": "universal",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": "Get current weather and forecasts (no API key required)."
+    },
+    {
+      "name": "web_search",
+      "original_names": [
+        "web_search"
+      ],
+      "sources": [
+        "BetaAgent"
+      ],
+      "level": "L1",
+      "industry": "general",
+      "capability_domain": "C09_集成连接器",
+      "description": ""
+    },
+    {
+      "name": "wecom_template_card",
+      "original_names": [
+        "wecom-template-card"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C05_风险合规安全",
+      "description": "Enterprise WeChat template_card builder and sender. Provides reusable card templates for due diligen"
+    },
+    {
+      "name": "wecom_unified",
+      "original_names": [
+        "wecom-unified"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "weiyun",
+      "original_names": [
+        "weiyun"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C07_客户营销服务渠道",
+      "description": ""
+    },
+    {
+      "name": "workspace_netdrive",
+      "original_names": [
+        "workspace-netdrive"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "transferable",
+      "capability_domain": "C09_集成连接器",
+      "description": "检测并管理挂载在工作区 /root/.openclaw/workspace/ 下的网盘（TOS 存储桶挂载）。当用户提到网盘、TOS、TOS 桶、TOS bucket、存储桶、对象存储、对象存储桶、桶"
+    },
+    {
+      "name": "xiapi_financial_roe_analysis",
+      "original_names": [
+        "xiapi-financial-roe-analysis"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L2",
+      "industry": "financial",
+      "capability_domain": "C03_数据分析与洞察",
+      "description": ""
+    },
+    {
+      "name": "xlsx",
+      "original_names": [
+        "xlsx"
+      ],
+      "sources": [
+        "DeltaAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C04_报告文档生成",
+      "description": ""
+    },
+    {
+      "name": "xua_auto",
+      "original_names": [
+        "xua-auto",
+        "XUA-auto"
+      ],
+      "sources": [
+        "AlphaAgent",
+        "BetaAgent",
+        "EpsilonAgent"
+      ],
+      "level": "L1",
+      "industry": "universal",
+      "capability_domain": "C09_集成连接器",
+      "description": "A comprehensive skill that uses the optimal strategy to orchestrate opencli, browser-use, and comput"
+    }
+  ]
+}
