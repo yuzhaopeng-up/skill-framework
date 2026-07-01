@@ -1,0 +1,545 @@
+{
+  "summary": {
+    "scanned_skills": 127,
+    "skills_with_errors": 88,
+    "total_errors": 230,
+    "total_warnings": 536,
+    "buckets": {
+      "A_g1_and_g2": 49,
+      "B_g1_only": 34,
+      "C_g2_only": 5,
+      "D_g4_pseudo_secret": 5
+    },
+    "error_breakdown": {
+      "G1_name_format": 83,
+      "G2_missing_field": 137,
+      "G4_potential_secret": 10
+    }
+  },
+  "buckets": {
+    "A_g1_and_g2": [
+      {
+        "dir": "Feishu-Cloud-Drive",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "Grammar",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "Story-Writer-Bilingual-Enhanced-Edition",
+        "missing": [
+          "license"
+        ]
+      },
+      {
+        "dir": "XUA-auto",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "agent-browser",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "agile-product-owner",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "api-test-automation",
+        "missing": [
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "arkclaw-team-project-builder",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "byted-seedance-video-generate",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "byted-seedream-image-generate",
+        "missing": [
+          "version",
+          "author"
+        ]
+      },
+      {
+        "dir": "byted-teamproject-image-generate",
+        "missing": [
+          "version",
+          "author"
+        ]
+      },
+      {
+        "dir": "byted-teamproject-video-generate",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "byted-web-search",
+        "missing": [
+          "license"
+        ]
+      },
+      {
+        "dir": "clean-pytest",
+        "missing": [
+          "version",
+          "author"
+        ]
+      },
+      {
+        "dir": "content-creator-cn",
+        "missing": [
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "content-strategy",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "cyber-owasp-review",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "douyin-creator-cn",
+        "missing": [
+          "author"
+        ]
+      },
+      {
+        "dir": "edge-tts",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "family-trust",
+        "missing": [
+          "license"
+        ]
+      },
+      {
+        "dir": "find-skills",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "frontend-design",
+        "missing": [
+          "version",
+          "author"
+        ]
+      },
+      {
+        "dir": "getdesign-md",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "global-asset-allocation",
+        "missing": [
+          "license"
+        ]
+      },
+      {
+        "dir": "go-concurrency",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "humanizer-academic-zh",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "mlops-automation-cn",
+        "missing": [
+          "author"
+        ]
+      },
+      {
+        "dir": "model-healthcheck",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "modified-code-review",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "multi-search-engine",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "no-code-frontend-builder",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "nodejs-backend-patterns",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "openclaw-docker",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "openclaw-feishu-docs-perm-auto",
+        "missing": [
+          "version",
+          "author"
+        ]
+      },
+      {
+        "dir": "ops-daily-report",
+        "missing": [
+          "license"
+        ]
+      },
+      {
+        "dir": "prd-developer",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "product-manager-toolkit",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "py-test-creator",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "review-evo",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "self-improvement",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "senior-backend",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "senior-devops",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "skill-creator",
+        "missing": [
+          "version",
+          "author"
+        ]
+      },
+      {
+        "dir": "story-cog",
+        "missing": [
+          "version",
+          "license"
+        ]
+      },
+      {
+        "dir": "tavily-search",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "video-editor",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "video-to-prompt",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "vite-react-tailwind",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "wecom-template-card",
+        "missing": [
+          "author",
+          "license"
+        ]
+      }
+    ],
+    "B_g1_only": [
+      "ai-contract-review-cn",
+      "application-material-checker",
+      "audit_sampling",
+      "byted-text-to-speech",
+      "churn_recall",
+      "collateral_valuation",
+      "collection_optimize",
+      "compliance_auto",
+      "contract_review",
+      "customer-marketing",
+      "customer-persona",
+      "customer_health",
+      "data-analysis-skill",
+      "family_trust",
+      "financial-intelligence",
+      "financial_intelligence",
+      "fund_research",
+      "global_asset_allocation",
+      "liquidity_alert",
+      "ma_scheme",
+      "market_view",
+      "meeting_minutes",
+      "nano-pdf",
+      "objection_training",
+      "ops_daily_report",
+      "product-manual-rag",
+      "product_pricing",
+      "regulatory-policy-rag",
+      "research-report",
+      "risk-compliance",
+      "roadshow_material",
+      "tax_planning",
+      "valuation_helper",
+      "wealth-management"
+    ],
+    "C_g2_only": [
+      {
+        "dir": "copywriter",
+        "missing": [
+          "version",
+          "author"
+        ]
+      },
+      {
+        "dir": "github",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "newman",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "ontology",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      },
+      {
+        "dir": "weather",
+        "missing": [
+          "version",
+          "author",
+          "license"
+        ]
+      }
+    ],
+    "D_g4_pseudo_secret": [
+      {
+        "name": "Feishu Cloud Drive",
+        "dir": "Feishu-Cloud-Drive",
+        "path": "skills/Feishu-Cloud-Drive",
+        "issues": [
+          {
+            "line": 28,
+            "message": "hardcoded credential: TOKEN=\"your_folder_token"
+          },
+          {
+            "line": 54,
+            "message": "hardcoded credential: token=\"your_folder_token"
+          }
+        ]
+      },
+      {
+        "name": "application-material-checker",
+        "dir": "application-material-checker",
+        "path": "skills/application-material-checker",
+        "issues": [
+          {
+            "line": 73,
+            "message": "China ID (PII, 18-digit): 110108198501012345"
+          }
+        ]
+      },
+      {
+        "name": "byted-seedream-image-generate",
+        "dir": "byted-seedream-image-generate",
+        "path": "skills/byted-seedream-image-generate",
+        "issues": [
+          {
+            "line": 46,
+            "message": "hardcoded credential: API_KEY=\"your-api-key-here"
+          },
+          {
+            "line": 48,
+            "message": "hardcoded credential: API_KEY=\"your-api-key-here"
+          },
+          {
+            "line": 50,
+            "message": "hardcoded credential: API_KEY=\"your-api-key-here"
+          }
+        ]
+      },
+      {
+        "name": "byted-teamproject-image-generate",
+        "dir": "byted-teamproject-image-generate",
+        "path": "skills/byted-teamproject-image-generate",
+        "issues": [
+          {
+            "line": 46,
+            "message": "hardcoded credential: API_KEY=\"your-api-key-here"
+          },
+          {
+            "line": 48,
+            "message": "hardcoded credential: API_KEY=\"your-api-key-here"
+          },
+          {
+            "line": 50,
+            "message": "hardcoded credential: API_KEY=\"your-api-key-here"
+          }
+        ]
+      },
+      {
+        "name": "tavily-search",
+        "dir": "tavily-search",
+        "path": "skills/tavily-search",
+        "issues": [
+          {
+            "line": 36,
+            "message": "hardcoded credential: API_KEY=\"your-api-key-here"
+          }
+        ]
+      }
+    ]
+  }
+}
