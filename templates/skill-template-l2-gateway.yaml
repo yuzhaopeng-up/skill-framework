@@ -1,0 +1,39 @@
+# L2 网关Skill模板
+
+# 用途: 业务编排型Skill（统一入口、意图识别、路由分发）
+# 复杂度: 高
+# 预计开发时间: 6-8小时
+
+skill:
+  name: "gateway-skill"
+  version: "1.0.0"
+  description: "统一入口，根据意图路由到子Skill"
+  
+  input:
+    parameters:
+      - name: "user_input"
+        type: string
+        required: true
+        description: "用户原始输入"
+  
+  processing:
+    steps:
+      - step: 1
+        name: "意图识别"
+        action: "分析用户输入，识别意图类别"
+      - step: 2
+        name: "路由分发"
+        action: "根据意图匹配对应子Skill"
+      - step: 3
+        name: "结果聚合"
+        action: "收集子Skill输出，统一返回"
+  
+  routing_rules:
+    - intent: "查询"
+      target_skill: "data-query-skill"
+    - intent: "生成"
+      target_skill: "report-generator-skill"
+    - intent: "审核"
+      target_skill: "doc-auditor-skill"
+    - intent: "未知"
+      target_skill: "kb-qa-skill"
