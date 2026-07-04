@@ -10,7 +10,7 @@
 
 ## 1. 目的
 
-统一DemoBank集群所有节点（AlphaAgent / BetaAgent / GammaAgent / DeltaAgent / EpsilonAgent / TeleAgent）发送和接收 IM 消息的接口标准，让上层 Skill **不再感知具体渠道**（飞书/企微/微信/钉钉/Discord/Slack/Telegram 等），所有渠道差异由 L0 适配器吸收。
+统一EnterpriseAI集群所有节点（AlphaAgent / BetaAgent / GammaAgent / DeltaAgent / EpsilonAgent / TeleAgent）发送和接收 IM 消息的接口标准，让上层 Skill **不再感知具体渠道**（飞书/企微/微信/钉钉/Discord/Slack/Telegram 等），所有渠道差异由 L0 适配器吸收。
 
 ## 2. 核心原则
 
@@ -95,7 +95,7 @@ chat:
   type: group                        # private | group | channel
   id: "oc_xxxx"
   thread_id: "tid_xxx"               # 飞书话题/Discord thread/Slack thread
-  name: "DemoBank集群AI团队"
+  name: "EnterpriseAI集群AI团队"
 
 message_type: text                   # 同 §4.3
 content:
