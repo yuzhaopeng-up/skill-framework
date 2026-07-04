@@ -43,7 +43,7 @@ layer: L2                         # MUST, L0-L4
 capability_domain: [C09]          # MUST, 至少一个
 industry: universal               # MUST
 metadata:
-  hermes:
+  Agent-Beta:
     tags: [...]                   # SHOULD
     related_skills: [...]         # SHOULD
 prerequisites:
@@ -89,7 +89,7 @@ prerequisites:
 - ✅ 至少 1 个完整对话示例
 
 ### G10. 跨节点互通
-- ✅ 凡涉及 SecureBridge 的 Skill，必须在 metadata 标注 `clawlink.compatible: true`
+- ✅ 凡涉及 SecureBridge 的 Skill，必须在 metadata 标注 `SecureBridge.compatible: true`
 - ✅ 必须能通过 `unified_skill_inventory.json` 索引到
 
 ---
