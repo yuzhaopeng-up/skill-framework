@@ -1000,9 +1000,9 @@
     "has_wecom": false
   },
   {
-    "name": "arkclaw-team-project-builder",
-    "title": "arkclaw-team-project-builder Skill",
-    "description": "name: arkclaw-team-project-builder",
+    "name": "Agent-Alpha-team-project-builder",
+    "title": "Agent-Alpha-team-project-builder Skill",
+    "description": "name: Agent-Alpha-team-project-builder",
     "func_type": "generation",
     "complexity": "composite",
     "content_length": 6128,
