@@ -55,7 +55,7 @@ documents:                          # 待处理文档（1..N）
       sensitivity: confidential     # public | internal | confidential | secret
 context:                            # 业务上下文
   initiator: "ou_xxxx"
-  org: "南昌分公司"
+  org: "XX分公司"
   ticket_id: "T20260620-001"
 options:
   ocr_engine: paddle                # paddle | tesseract | aliyun | tencent
@@ -166,7 +166,7 @@ from skills.l2 import unified_document_pipeline as udp
 result = udp.run({
     "pipeline_id": "contract_review_v1",
     "documents": [{"source": {"type": "feishu_drive", "ref": doc_token}}],
-    "context": {"initiator": user_id, "org": "南昌分公司"},
+    "context": {"initiator": user_id, "org": "XX分公司"},
 })
 ```
 
