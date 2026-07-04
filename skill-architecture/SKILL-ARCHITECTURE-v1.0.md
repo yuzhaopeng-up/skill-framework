@@ -1,4 +1,4 @@
-﻿# DemoBankAI Skill 架构体系 v1.0
+﻿# EnterpriseAI Skill 架构体系 v1.0
 
 > **定位**: 基于企业架构思想（4A架构、构建块、无差别信息流）的Skill系统化梳理  
 > **目标**: 形成可复用、可编排、可治理的Skill模块体系，减少开发时间，提升复用性  
@@ -986,4 +986,4 @@ class SkillEngine:
 *文档版本: v1.0*  
 *更新日期: 2026-06-20*  
 *作者: BetaAgent Agent*  
-*适用范围: DemoBankAI Skill体系*
+*适用范围: EnterpriseAI Skill体系*
