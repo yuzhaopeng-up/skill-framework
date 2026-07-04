@@ -121,9 +121,9 @@
       "description": "Financial AI Skill - 进件材料自动核对引擎。基于规则引擎对身份证/营业执照/银行流水/合同等单据进行完整性+合规性双维校验，自动识别缺失项、过期证件、名称不一致、用途违规、首付不足"
     },
     {
-      "name": "arkclaw_automation_os",
+      "name": "Agent-Alpha_automation_os",
       "original_names": [
-        "arkclaw-automation-os"
+        "Agent-Alpha-automation-os"
       ],
       "sources": [
         "EpsilonAgent"
@@ -134,9 +134,9 @@
       "description": ""
     },
     {
-      "name": "arkclaw_team_project_builder",
+      "name": "Agent-Alpha_team_project_builder",
       "original_names": [
-        "arkclaw-team-project-builder"
+        "Agent-Alpha-team-project-builder"
       ],
       "sources": [
         "AlphaAgent",
@@ -397,9 +397,9 @@
       "description": ""
     },
     {
-      "name": "clawlink_workflow",
+      "name": "SecureBridge_workflow",
       "original_names": [
-        "clawlink-workflow"
+        "SecureBridge-workflow"
       ],
       "sources": [
         "DeltaAgent"
@@ -2858,7 +2858,7 @@
       "level": "L1",
       "industry": "transferable",
       "capability_domain": "C09_集成连接器",
-      "description": "检测并管理挂载在工作区 /root/.openclaw/workspace/ 下的网盘（TOS 存储桶挂载）。当用户提到网盘、TOS、TOS 桶、TOS bucket、存储桶、对象存储、对象存储桶、桶"
+      "description": "检测并管理挂载在工作区 /opt/skills/workspace/ 下的网盘（TOS 存储桶挂载）。当用户提到网盘、TOS、TOS 桶、TOS bucket、存储桶、对象存储、对象存储桶、桶"
     },
     {
       "name": "xiapi_financial_roe_analysis",
