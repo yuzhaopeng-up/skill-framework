@@ -103,7 +103,7 @@
 | **金融行业蓝图** | 贷前尽调、贷后舆情、合规审查、净息差归因 | 金融场景补充 |
 | **Skill开发模板** | 标准化开发模板 | 开发效率提升 |
 | **Agent Mesh/MCP** | 引入Agent Mesh和MCP协议 | 多智能体协作标准 |
-| **SecureBridge工作流** | clawlink-workflow Skill | 多Agent通信基础设施 |
+| **SecureBridge工作流** | SecureBridge-workflow Skill | 多Agent通信基础设施 |
 
 ---
 
@@ -156,7 +156,7 @@ openclaw-workspace/
 └── 00-methodology/skill-architecture/            ← BetaAgent (develop分支)
     ├── SKILL-ARCHITECTURE-v1.0.md
     ├── TRIPARTITE-INTEGRATION-REPORT-v1.0.md
-    ├── ARKCLAW-HERMES-INTEGRATION-REPORT.md
+    ├── Agent-Alpha-Agent-Beta-INTEGRATION-REPORT.md
     ├── skills_inventory.json
     ├── skills_detailed.json
     └── skills_dependencies.json
@@ -240,7 +240,7 @@ openclaw-workspace/
 | C03 | 知识检索与RAG | 知识库、检索增强生成 | L0-L2 | tavily-search、research_rag | AlphaAgent |
 | C04 | 报告/文档生成 | 报告、文档、内容生成 | L1-L3 | content-creator-cn、report_formatter、xlsx/docx/pptx/pdf | AlphaAgent+DeltaAgent |
 | C05 | 风险/合规/安全 | 风控、合规、反欺诈、安全 | L1-L3 | risk-compliance、fraud_detection、cyber-owasp-review | AlphaAgent |
-| C06 | 流程编排与路由 | 工作流、编排、路由、状态管理 | L2-L4 | taskflow、cross-channel-router、clawlink-workflow | GammaAgent+DeltaAgent |
+| C06 | 流程编排与路由 | 工作流、编排、路由、状态管理 | L2-L4 | taskflow、cross-channel-router、SecureBridge-workflow | GammaAgent+DeltaAgent |
 | C07 | 客户/营销/服务/渠道 | 客户管理、营销、客服、IM渠道 | L0-L4 | customer-marketing、feishu-msg、wecom-msg、wecom-unified | GammaAgent+DeltaAgent |
 | C08 | 投资/组合/定价 | 投研、组合管理、定价、量化 | L2-L3 | portfolio_management、robo_advisor、quant_backtest | AlphaAgent |
 | C09 | 集成连接器 | 工具、平台、API、测试、代码 | L0-L1 | github、api-test-automation、senior-backend、tapd、weiyun | AlphaAgent+DeltaAgent |
@@ -300,7 +300,7 @@ openclaw-workspace/                          # 主工作仓库
 │       ├── 08-im-channel-matrix.md           # GammaAgent: IM渠道矩阵
 │       ├── 09-l2-pattern-blueprints.md      # GammaAgent: L2模式蓝图
 │       ├── 10-vertical-industry-blueprints.md # GammaAgent: 垂直行业蓝图
-│       ├── 11-workbuddy-ecosystem.md          # DeltaAgent: 生态Skill与腾讯系工具
+│       ├── 11-Agent-Delta-ecosystem.md          # DeltaAgent: 生态Skill与腾讯系工具
 │       ├── 12-integration-report.md          # 四方整合报告（本文档）
 │       ├── data/
 │       │   ├── skill-inventory.json          # 机器可读全量清单（180+）
@@ -308,7 +308,7 @@ openclaw-workspace/                          # 主工作仓库
 │       │   ├── category-summary.json         # 分类统计
 │       │   ├── dependency-graph.json         # 依赖关系图
 │       │   ├── reuse-matrix.json             # 复用矩阵
-│       │   └── workbuddy-skills.json         # DeltaAgent 53个Skill
+│       │   └── Agent-Delta-skills.json         # DeltaAgent 53个Skill
 │       └── templates/
 │           ├── new-skill-template.md          # GammaAgent: 新建Skill模板
 │           ├── skill-review-checklist.md      # GammaAgent: 审查清单
@@ -356,7 +356,7 @@ openclaw-workspace/                          # 主工作仓库
 │   │   │   └── nim-attribution/            # DeltaAgent蓝图: 净息差归因
 │   │   └── telecom/                        # telecom场景
 │   └── l4-multi-agent/                     # L4 多AgentSkill
-│       ├── clawlink-orchestration/
+│       ├── SecureBridge-orchestration/
 │       ├── coding-agent/
 │       └── taskflow-multi-agent/
 │
@@ -404,7 +404,7 @@ DeltaAgent 上传了 `skill-architecture/skill-taxonomy/` 到 `main` 分支：
 
 **方案C：归档 DeltaAgent 版本，提取独特内容**
 
-1. 将 DeltaAgent 的架构文档归档（如 `archive/workbuddy-skill-taxonomy/`）
+1. 将 DeltaAgent 的架构文档归档（如 `archive/Agent-Delta-skill-taxonomy/`）
 2. 提取独特内容（DeltaAgent 53个Skill、腾讯系工具、金融蓝图）
 3. 合并到统一清单和架构文档中
 4. 保留开发模板到 `templates/`
