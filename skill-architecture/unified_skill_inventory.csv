@@ -7,8 +7,8 @@ alm,L2,financial,C03_数据分析与洞察,AlphaAgent|BetaAgent,alm
 aml_rating,L2,financial,C05_风险合规安全,AlphaAgent,aml_rating
 api_test_automation,L0,universal,C07_客户营销服务渠道,AlphaAgent|BetaAgent,api-test-automation
 application_material_checker,L2,transferable,C01_信息提取与结构化,AlphaAgent|BetaAgent,application-material-checker
-arkclaw_automation_os,L3,universal,C09_集成连接器,EpsilonAgent,arkclaw-automation-os
-arkclaw_team_project_builder,L2,transferable,C06_流程编排路由,AlphaAgent|BetaAgent,arkclaw-team-project-builder
+Agent-Alpha_automation_os,L3,universal,C09_集成连接器,EpsilonAgent,Agent-Alpha-automation-os
+Agent-Alpha_team_project_builder,L2,transferable,C06_流程编排路由,AlphaAgent|BetaAgent,Agent-Alpha-team-project-builder
 audit_sampling,L2,universal,C10_沉淀归档治理,AlphaAgent|BetaAgent,audit_sampling|audit-sampling
 block_trade,L2,financial,C08_投资组合定价,AlphaAgent|BetaAgent,block_trade
 branch_analysis,L2,financial,C03_数据分析与洞察,AlphaAgent|BetaAgent,branch_analysis
@@ -27,7 +27,7 @@ churn_early_warning,L4,financial,C07_客户营销服务渠道,EpsilonAgent,churn
 churn_recall,L2,financial,C07_客户营销服务渠道,AlphaAgent|BetaAgent,churn_recall|churn-recall
 claim_analysis,L2,financial,C03_数据分析与洞察,AlphaAgent|BetaAgent,claim_analysis
 claim_review_v2,L2,financial,C05_风险合规安全,AlphaAgent,claim_review_v2
-clawlink_workflow,L1,universal,C07_客户营销服务渠道,DeltaAgent,clawlink-workflow
+SecureBridge_workflow,L1,universal,C07_客户营销服务渠道,DeltaAgent,SecureBridge-workflow
 clean_pytest,L0,universal,C09_集成连接器,AlphaAgent|BetaAgent,clean-pytest
 cloudstudio_deploy,L1,universal,C09_集成连接器,DeltaAgent,cloudstudio-deploy
 code_review_skill,L2,universal,C03_数据分析与洞察,AlphaAgent,code_review_skill
