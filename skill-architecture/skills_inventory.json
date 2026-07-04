@@ -121,12 +121,12 @@
     "is_composite": true
   },
   {
-    "name": "arkclaw-team-project-builder",
+    "name": "Agent-Alpha-team-project-builder",
     "has_skill_md": true,
     "has_scripts": true,
     "has_wecom": false,
     "has_engine": false,
-    "description": "---\nname: arkclaw-team-project-builder\ndescription: 项目经理负责项目规划、团队组建与项目调整。涵盖：意图识别 → 澄清沟通 → 规划方案 → 创建团队，以及项目运行中的成员增删改、项目信息修改。通过 openclaw gateway call 调用 RPC 落地变更。\nopenclaw_managed: true\nopenclaw_skill_o",
+    "description": "---\nname: Agent-Alpha-team-project-builder\ndescription: 项目经理负责项目规划、团队组建与项目调整。涵盖：意图识别 → 澄清沟通 → 规划方案 → 创建团队，以及项目运行中的成员增删改、项目信息修改。通过 openclaw gateway call 调用 RPC 落地变更。\nopenclaw_managed: true\nopenclaw_skill_o",
     "industry": "general",
     "type": "composite",
     "is_composite": true
@@ -137,7 +137,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: audit-sampling\ndescription: \"金融AI技能 - 风险导向智能审计抽样引擎。基于监管规则和风险模型，自动生成审计抽样方案，实现抽样覆盖率≥95%的验收标准。适用于银行、证券、保险等金融机构的内部审计场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags:",
+    "description": "---\nname: audit-sampling\ndescription: \"金融AI技能 - 风险导向智能审计抽样引擎。基于监管规则和风险模型，自动生成审计抽样方案，实现抽样覆盖率≥95%的验收标准。适用于银行、证券、保险等金融机构的内部审计场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags:",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -247,7 +247,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: churn-recall\ndescription: \"金融AI技能 - 流失客户召回引擎。识别潜在流失客户，基于RFM模型和客户行为数据生成个性化召回话术和营销策略。降低客户流失率，提升客户活跃度。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [churn, recall,",
+    "description": "---\nname: churn-recall\ndescription: \"金融AI技能 - 流失客户召回引擎。识别潜在流失客户，基于RFM模型和客户行为数据生成个性化召回话术和营销策略。降低客户流失率，提升客户活跃度。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [churn, recall,",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -302,7 +302,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: collection-optimize\ndescription: \"金融AI技能 - 智能催收策略优化引擎。输入逾期客户信息及历史催收记录，输出分层催收策略与定制化话术。目标：回收率提升≥10%。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [collection, deb",
+    "description": "---\nname: collection-optimize\ndescription: \"金融AI技能 - 智能催收策略优化引擎。输入逾期客户信息及历史催收记录，输出分层催收策略与定制化话术。目标：回收率提升≥10%。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [collection, deb",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -313,7 +313,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: compliance-auto\ndescription: \"金融AI技能 - 业务流程合规性自动检查引擎。输入业务类型和操作记录，自动检查合规性，输出合规报告和整改建议。支持10+种合规规则，覆盖金融行业主要业务流程合规检查场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags:",
+    "description": "---\nname: compliance-auto\ndescription: \"金融AI技能 - 业务流程合规性自动检查引擎。输入业务类型和操作记录，自动检查合规性，输出合规报告和整改建议。支持10+种合规规则，覆盖金融行业主要业务流程合规检查场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags:",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -346,7 +346,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: contract-review\ndescription: \"金融AI技能 - 合同智能审查引擎。自动审查合同条款，识别风险点，提供修改建议。支持多种合同类型，覆盖金融行业常见合同风险。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [contract, review, leg",
+    "description": "---\nname: contract-review\ndescription: \"金融AI技能 - 合同智能审查引擎。自动审查合同条款，识别风险点，提供修改建议。支持多种合同类型，覆盖金融行业常见合同风险。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [contract, review, leg",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -423,7 +423,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: customer-health\ndescription: \"金融AI技能 - 客户健康度热力图引擎。可视化展示客户健康度，基于多维度评分规则自动计算健康度得分，输出热力图与预警名单。支持客户群整体健康监测、异常预警、客群分层。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [",
+    "description": "---\nname: customer-health\ndescription: \"金融AI技能 - 客户健康度热力图引擎。可视化展示客户健康度，基于多维度评分规则自动计算健康度得分，输出热力图与预警名单。支持客户群整体健康监测、异常预警、客群分层。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -566,7 +566,7 @@
     "has_scripts": true,
     "has_wecom": false,
     "has_engine": true,
-    "description": "---\nname: financial-intelligence\ndescription: \"DemoBank金融AI - 财务智能体Skill。提供6大财务场景AI赋能：发票查验、预算管控、财报速读、税务筹划、费用报销、资金预测。面向财务人员培训演示场景。\"\nversion: 1.0.0\nauthor: BetaAgent Brain\nlicense: MIT\nmetadata:\n  hermes:\n    ta",
+    "description": "---\nname: financial-intelligence\ndescription: \"EnterpriseAI金融AI - 财务智能体Skill。提供6大财务场景AI赋能：发票查验、预算管控、财报速读、税务筹划、费用报销、资金预测。面向财务人员培训演示场景。\"\nversion: 1.0.0\nauthor: BetaAgent Brain\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    ta",
     "industry": "financial",
     "type": "multi_agent",
     "is_composite": true
@@ -731,7 +731,7 @@
     "has_scripts": false,
     "has_wecom": false,
     "has_engine": false,
-    "description": "---\nname: humanizer-academic-zh\ndescription: Humanizer 中文学术版——当用户要求润色论文、去除AI味、降低AIGC检测率，或说\"帮我改改这段\"\"这段读起来像AI写的\"时触发。\nopenclaw_managed: true\nopenclaw_skill_origin: autoskill\nopenclaw_created_by: hermes-r",
+    "description": "---\nname: humanizer-academic-zh\ndescription: Humanizer 中文学术版——当用户要求润色论文、去除AI味、降低AIGC检测率，或说\"帮我改改这段\"\"这段读起来像AI写的\"时触发。\nopenclaw_managed: true\nopenclaw_skill_origin: autoskill\nopenclaw_created_by: Agent-Beta-r",
     "industry": "general",
     "type": "base",
     "is_composite": false
@@ -764,7 +764,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: liquidity-alert\ndescription: \"金融AI技能 - 资金流动性风险预警引擎。基于规则引擎预测30天流动性缺口，识别预警信号，支持LCR/净流动性缺口监控。适用于银行、证券、基金、保险等金融机构资金管理场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags",
+    "description": "---\nname: liquidity-alert\ndescription: \"金融AI技能 - 资金流动性风险预警引擎。基于规则引擎预测30天流动性缺口，识别预警信号，支持LCR/净流动性缺口监控。适用于银行、证券、基金、保险等金融机构资金管理场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -775,7 +775,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: ma-scheme\ndescription: \"金融AI技能 - 并购方案生成引擎。输入收购方、被收购方、交易目的，输出交易结构设计、估值分析、财务预测及风险提示。支持多种交易结构，覆盖A股上市公司并购重组场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [ma, m&a",
+    "description": "---\nname: ma-scheme\ndescription: \"金融AI技能 - 并购方案生成引擎。输入收购方、被收购方、交易目的，输出交易结构设计、估值分析、财务预测及风险提示。支持多种交易结构，覆盖A股上市公司并购重组场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [ma, m&a",
     "industry": "financial",
     "type": "multi_agent",
     "is_composite": true
@@ -797,7 +797,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: market-view\ndescription: \"Financial AI Skill - 市场观点输出引擎。输入市场数据/新闻/行情，自动生成日报/周报观点输出（大盘综述+行业表现+热点主题+资金流向+下周展望）。覆盖A股/港股/美股，零外部依赖。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes",
+    "description": "---\nname: market-view\ndescription: \"Financial AI Skill - 市场观点输出引擎。输入市场数据/新闻/行情，自动生成日报/周报观点输出（大盘综述+行业表现+热点主题+资金流向+下周展望）。覆盖A股/港股/美股，零外部依赖。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta",
     "industry": "general",
     "type": "standard",
     "is_composite": true
@@ -863,7 +863,7 @@
     "has_scripts": false,
     "has_wecom": false,
     "has_engine": false,
-    "description": "---\nname: nano-pdf\ndescription: \"Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).\"\nversion: 1.0.0\nauthor: community\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [PDF, Documents, Editing, NLP, P",
+    "description": "---\nname: nano-pdf\ndescription: \"Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).\"\nversion: 1.0.0\nauthor: community\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [PDF, Documents, Editing, NLP, P",
     "industry": "general",
     "type": "base",
     "is_composite": false
@@ -907,7 +907,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: objection-training\ndescription: \"金融AI技能 - 客户异议训练引擎。模拟客户各种异议场景，为客户经理提供实战训练。包含5种以上异议类型，自动评分和改进建议。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [objection, trainin",
+    "description": "---\nname: objection-training\ndescription: \"金融AI技能 - 客户异议训练引擎。模拟客户各种异议场景，为客户经理提供实战训练。包含5种以上异议类型，自动评分和改进建议。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [objection, trainin",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -929,7 +929,7 @@
     "has_scripts": false,
     "has_wecom": false,
     "has_engine": false,
-    "description": "---\nname: openclaw-docker\ndescription: \"Manage Docker containers and Compose projects via OpenClaw tools\"\nopenclaw_managed: true\nopenclaw_skill_origin: autoskill\nopenclaw_created_by: hermes-runtime\n--",
+    "description": "---\nname: openclaw-docker\ndescription: \"Manage Docker containers and Compose projects via OpenClaw tools\"\nopenclaw_managed: true\nopenclaw_skill_origin: autoskill\nopenclaw_created_by: Agent-Beta-runtime\n--",
     "industry": "general",
     "type": "standard",
     "is_composite": false
@@ -962,7 +962,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: ops-daily-report\ndescription: \"Financial AI Skill - 运营日报生成器。输入运营数据指标，自动生成格式化运营日报（业务概况+重点指标+同比环比+异常预警+明日计划）。覆盖银行/证券/基金运营场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n  ",
+    "description": "---\nname: ops-daily-report\ndescription: \"Financial AI Skill - 运营日报生成器。输入运营数据指标，自动生成格式化运营日报（业务概况+重点指标+同比环比+异常预警+明日计划）。覆盖银行/证券/基金运营场景。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n  ",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -1039,7 +1039,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: product-pricing\ndescription: \"金融AI技能 - 产品定价引擎。输入产品类型、客户风险等级、市场利率，输出定价方案及利率敏感性分析。支持存款、贷款、汇兑、理财四大产品线。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [pricing, produ",
+    "description": "---\nname: product-pricing\ndescription: \"金融AI技能 - 产品定价引擎。输入产品类型、客户风险等级、市场利率，输出定价方案及利率敏感性分析。支持存款、贷款、汇兑、理财四大产品线。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [pricing, produ",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -1083,7 +1083,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: rebalance\ndescription: \"金融AI技能 - 资产配置再平衡引擎。输入当前持仓+目标配置，输出调仓方案+交易成本估算。支持多资产类型（股票/债券/基金/黄金/外汇/理财等），基于规则引擎，无需LLM。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [por",
+    "description": "---\nname: rebalance\ndescription: \"金融AI技能 - 资产配置再平衡引擎。输入当前持仓+目标配置，输出调仓方案+交易成本估算。支持多资产类型（股票/债券/基金/黄金/外汇/理财等），基于规则引擎，无需LLM。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [por",
     "industry": "financial",
     "type": "composite",
     "is_composite": true
@@ -1325,7 +1325,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: tax-planning\ndescription: \"金融AI技能 - 税务筹划方案引擎。输入收入类型、资产状况、地区，输出税负分析与节税方案。支持个人所得税、企业所得税、增值税、消费税、房产税等主要税种。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [tax, plann",
+    "description": "---\nname: tax-planning\ndescription: \"金融AI技能 - 税务筹划方案引擎。输入收入类型、资产状况、地区，输出税负分析与节税方案。支持个人所得税、企业所得税、增值税、消费税、房产税等主要税种。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [tax, plann",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -1358,7 +1358,7 @@
     "has_scripts": true,
     "has_wecom": true,
     "has_engine": true,
-    "description": "---\nname: valuation-helper\ndescription: \"金融AI技能 - 基金/理财估值核算辅助引擎。输入持仓数据和净值日期，输出估值计算结果与异常预警。验收标准：估值准确率≥99.99%。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  hermes:\n    tags: [valuation, fund",
+    "description": "---\nname: valuation-helper\ndescription: \"金融AI技能 - 基金/理财估值核算辅助引擎。输入持仓数据和净值日期，输出估值计算结果与异常预警。验收标准：估值准确率≥99.99%。\"\nversion: 1.0.0\nauthor: AlphaAgent\nlicense: MIT\nmetadata:\n  Agent-Beta:\n    tags: [valuation, fund",
     "industry": "financial",
     "type": "standard",
     "is_composite": true
@@ -1369,7 +1369,7 @@
     "has_scripts": true,
     "has_wecom": false,
     "has_engine": false,
-    "description": "---\nname: video-editor\ndescription: 视频编辑器，支持合并多个视频文件、为视频添加音频轨道、合并音频、生成并烧录字幕等。\nopenclaw_managed: true\nopenclaw_skill_origin: autoskill\nopenclaw_created_by: hermes-runtime\n---\n\n# Video Editor - 视频编辑器\n\n#",
+    "description": "---\nname: video-editor\ndescription: 视频编辑器，支持合并多个视频文件、为视频添加音频轨道、合并音频、生成并烧录字幕等。\nopenclaw_managed: true\nopenclaw_skill_origin: autoskill\nopenclaw_created_by: Agent-Beta-runtime\n---\n\n# Video Editor - 视频编辑器\n\n#",
     "industry": "general",
     "type": "standard",
     "is_composite": false
