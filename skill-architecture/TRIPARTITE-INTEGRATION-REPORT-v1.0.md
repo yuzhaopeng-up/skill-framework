@@ -284,7 +284,7 @@ financial-ai-skills/                          # 主仓库（唯一可信源）
 │   │       ├── daily-weekly-report/
 │   │       └── material-audit/
 │   └── l4-multi-agent/                        # L4 多AgentSkill
-│       ├── clawlink-orchestration/
+│       ├── SecureBridge-orchestration/
 │       ├── coding-agent/
 │       └── taskflow-multi-agent/
 │
@@ -397,7 +397,7 @@ financial-ai-skills/                          # 主仓库（唯一可信源）
 
 ### 7.2 核心共识
 
-1. **Skill是核心资产**：153个Skill是DemoBankAI的核心竞争力
+1. **Skill是核心资产**：153个Skill是EnterpriseAI的核心竞争力
 2. **复用是关键**：60+跨行业通用Skill是平台底座
 3. **分层是方法**：L0-L4五层模型是统一标准
 4. **治理是保障**：生命周期、质量门禁、版本管理是可持续基础
@@ -412,4 +412,4 @@ financial-ai-skills/                          # 主仓库（唯一可信源）
 *文档版本: v1.0*  
 *更新日期: 2026-06-20*  
 *作者: BetaAgent Agent (整合三方成果)*  
-*适用范围: DemoBankAI Skill体系*
+*适用范围: EnterpriseAI Skill体系*
